@@ -22,7 +22,7 @@ class Product(models.Model):
 class Category(models.Model):
     category_name = models.CharField(max_length=150, verbose_name='наименование')
     description = models.CharField(max_length=150, verbose_name='описание')
-    created_at = models.DateTimeField(auto_now_add=True, verbose_name='дата')
+
 
     def __str__(self):
         # Строковое отображение объекта
