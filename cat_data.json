@@ -1,0 +1,102 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "яблоко",
+      "description": "зеленое",
+      "image": "None/1676653795-yabloki-fon-zelenie-239.jpg",
+      "category_name": 1,
+      "purchase_price": 120,
+      "creation_date": "2023-06-16T15:19:32.257Z",
+      "last_modified_date": "2023-06-16T15:19:32.257Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "слива",
+      "description": "синяя",
+      "image": "None/cae3eda2ded864a53596503c623b8f2a.jpeg",
+      "category_name": 1,
+      "purchase_price": 300,
+      "creation_date": "2023-06-16T15:20:41.409Z",
+      "last_modified_date": "2023-06-16T15:20:41.409Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "product_name": "картофель",
+      "description": "свежий урожай",
+      "image": "None/Kartofel.jpg",
+      "category_name": 2,
+      "purchase_price": 60,
+      "creation_date": "2023-06-16T15:22:03.857Z",
+      "last_modified_date": "2023-06-16T15:22:03.857Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "product_name": "броколи",
+      "description": "заморожен",
+      "image": "None/dfcb8300c3a7e8e902e691c6c9554d09.jpeg",
+      "category_name": 3,
+      "purchase_price": 130,
+      "creation_date": "2023-06-16T15:23:19.419Z",
+      "last_modified_date": "2023-06-16T15:23:19.419Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "category_name": "фрукты",
+      "description": "свежие"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "category_name": "овощи",
+      "description": "свежие"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "category_name": "овощи",
+      "description": "замороженые"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "category_name": "сыр",
+      "description": "твердый сыр"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "category_name": "колбаса",
+      "description": "варёная"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields": {
+      "category_name": "молоко",
+      "description": "натуральное"
+    }
+  }
+]
