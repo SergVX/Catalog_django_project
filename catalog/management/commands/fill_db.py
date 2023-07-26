@@ -39,38 +39,30 @@ class Command(BaseCommand):
                     {
                         "product_name": "яблоко",
                         "description": "зеленое",
-                        "image": "None/1676653795-yabloki-fon-zelenie-239.jpg",
+                        "img": "img/1676653795-yabloki-fon-zelenie-239.jpg",
                         "category_name": Category.objects.get(pk=6),
-                        "purchase_price": 120,
-                        "creation_date": "2023-06-16T15:19:32.257Z",
-                        "last_modified_date": "2023-06-16T15:19:32.257Z"
+                        "purchase_price": 120
                     },
                     {
                         "product_name": "слива",
                         "description": "синяя",
-                        "image": "None/cae3eda2ded864a53596503c623b8f2a.jpeg",
+                        "img": "img/cae3eda2ded864a53596503c623b8f2a.jpeg",
                         "category_name": Category.objects.get(pk=6),
-                        "purchase_price": 300,
-                        "creation_date": "2023-06-16T15:20:41.409Z",
-                        "last_modified_date": "2023-06-16T15:20:41.409Z"
+                        "purchase_price": 300
                     },
                     {
                         "product_name": "картофель",
                         "description": "свежий урожай",
-                        "image": "None/Kartofel.jpg",
+                        "img": "img/Kartofel.jpg",
                         "category_name": Category.objects.get(pk=5),
-                        "purchase_price": 60,
-                        "creation_date": "2023-06-16T15:22:03.857Z",
-                        "last_modified_date": "2023-06-16T15:22:03.857Z"
+                        "purchase_price": 60
                     },
                     {
                         "product_name": "броколи",
                         "description": "заморожен",
-                        "image": "None/dfcb8300c3a7e8e902e691c6c9554d09.jpeg",
+                        "img": "img/dfcb8300c3a7e8e902e691c6c9554d09.jpeg",
                         "category_name": Category.objects.get(pk=4),
-                        "purchase_price": 130,
-                        "creation_date": "2023-06-16T15:23:19.419Z",
-                        "last_modified_date": "2023-06-16T15:23:19.419Z"
+                        "purchase_price": 130
                     },
 
                 ]
