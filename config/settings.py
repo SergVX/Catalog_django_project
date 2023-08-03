@@ -74,13 +74,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-User_PASSWORD = str(input('Enter your DB password\n'))
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'catalog_project', # Название БД
         'USER': 'postgres', # Пользователь для подключения
-        'PASSWORD': User_PASSWORD, # Пароль для этого пользователя
+        'PASSWORD': os.getenv('DATABASE_PASSWORD'), # Пароль для этого пользователя
         #'HOST': '127.0.0.1', # Адрес, на котором развернут сервер БД
         #'PORT': '49931', # Порт, на котором работает сервер БД
     }
