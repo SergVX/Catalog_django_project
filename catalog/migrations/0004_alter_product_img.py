@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterField(
             model_name='product',
-            name='img',
-            field=models.ImageField(null=True, upload_to='img/', verbose_name='изображение'),
+            name='catalog',
+            field=models.ImageField(null=True, upload_to='catalog/', verbose_name='изображение'),
         ),
     ]

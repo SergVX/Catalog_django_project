@@ -39,28 +39,28 @@ class Command(BaseCommand):
                     {
                         "product_name": "яблоко",
                         "description": "зеленое",
-                        "img": "img/1676653795-yabloki-fon-zelenie-239.jpg",
+                        "image": "catalog/1676653795-yabloki-fon-zelenie-239.jpg",
                         "category_name": Category.objects.get(pk=6),
                         "purchase_price": 120
                     },
                     {
                         "product_name": "слива",
                         "description": "синяя",
-                        "img": "img/cae3eda2ded864a53596503c623b8f2a.jpeg",
+                        "image": "catalog/cae3eda2ded864a53596503c623b8f2a.jpeg",
                         "category_name": Category.objects.get(pk=6),
                         "purchase_price": 300
                     },
                     {
                         "product_name": "картофель",
                         "description": "свежий урожай",
-                        "img": "img/Kartofel.jpg",
+                        "image": "catalog/Kartofel.jpg",
                         "category_name": Category.objects.get(pk=5),
                         "purchase_price": 60
                     },
                     {
                         "product_name": "броколи",
                         "description": "заморожен",
-                        "img": "img/dfcb8300c3a7e8e902e691c6c9554d09.jpeg",
+                        "image": "catalog/dfcb8300c3a7e8e902e691c6c9554d09.jpeg",
                         "category_name": Category.objects.get(pk=4),
                         "purchase_price": 130
                     },

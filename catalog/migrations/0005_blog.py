@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=50, verbose_name='Название')),
                 ('slug', models.SlugField(verbose_name='Slug')),
                 ('content', models.TextField(verbose_name='Содержимое')),
-                ('image', models.ImageField(blank=True, null=True, upload_to='products/', verbose_name='Изображение')),
+                ('image', models.ImageField(blank=True, null=True, upload_to='blog/', verbose_name='Изображение')),
                 ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')),
                 ('is_published', models.BooleanField(default=False, verbose_name='Опубликовано')),
                 ('views_count', models.IntegerField(default=0)),

@@ -5,7 +5,7 @@ from django.template.defaultfilters import slugify
 class Product(models.Model):
     product_name = models.CharField(max_length=150, verbose_name='наименование')
     description = models.CharField(max_length=150, verbose_name='описание')
-    img = models.ImageField(upload_to='img/', height_field=None, width_field=None, max_length=100, verbose_name='изображение', null=True)
+    image = models.ImageField(upload_to='image/catalog', height_field=None, width_field=None, max_length=100, verbose_name='изображение', null=True)
     category_name = models.ForeignKey("Category", on_delete=models.CASCADE)
     purchase_price = models.IntegerField(verbose_name='цена за покупку')
     creation_date = models.DateTimeField(auto_now_add=True, verbose_name='дата создания')
@@ -38,7 +38,7 @@ class Blog(models.Model):
     title = models.CharField(max_length=50, verbose_name='Название')  # Заголовок
     slug = models.SlugField(max_length=50, verbose_name='Slug')  # Slug (человекопонятный URL)
     content = models.TextField(verbose_name='Содержимое')  # Текст записи
-    image = models.ImageField(upload_to='products/', blank=True, null=True, verbose_name='Изображение')  # Превью
+    image = models.ImageField(upload_to='image/blog', blank=True, null=True, verbose_name='Изображение')  # Превью
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')  # Дата создания (генерируется автоматически)
     is_published = models.BooleanField(default=False, verbose_name='Опубликовано')  # Метка публикации статьи
     views_count = models.IntegerField(default=0)  # количество просмотров (по умолчанию 0)

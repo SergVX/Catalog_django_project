@@ -12,11 +12,11 @@ class Migration(migrations.Migration):
     operations = [
         migrations.RemoveField(
             model_name='product',
-            name='img',
+            name='catalog',
         ),
         migrations.AddField(
             model_name='product',
             name='image',
-            field=models.ImageField(null=True, upload_to='media/img/', verbose_name='изображение'),
+            field=models.ImageField(null=True, upload_to='media/catalog/', verbose_name='изображение'),
         ),
     ]
