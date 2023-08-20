@@ -5,7 +5,7 @@ register = template.Library()
 
 
 @register.simple_tag
-def upload_media(image):
+def mediapath_tag(image):
     if image:
         return f'/media/{image}'
 

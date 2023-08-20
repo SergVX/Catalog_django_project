@@ -45,7 +45,7 @@
                     <ul class="list-unstyled">
                         <li><a href="{% url 'catalog:home' %}" class="text-white">Главная</a></li>
                         <li><a href="#" class="text-white">Наш блог</a></li>
-                        <li><a href="{% url 'catalog:contacts' %}" class="text-white">Email me</a></li>
+                        <li><a href="{% url 'catalog:contacts' %}" class="text-white">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -74,11 +74,11 @@
     <section class="jumbotron text-center">
         <div class="container">
             <h1 class="jumbotron-heading">{{ title }}</h1>
-            <p class="lead text-muted">Здесь можно написать любую информацию.</p>
-            <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-            </p>
+{#            <p class="lead text-muted">Здесь можно написать любую информацию.</p>#}
+{#            <p>#}
+{#                <a href="#" class="btn btn-primary my-2">Main call to action</a>#}
+{#                <a href="#" class="btn btn-secondary my-2">Secondary action</a>#}
+{#            </p>#}
         </div>
     </section>
 
@@ -87,7 +87,6 @@
             {% block content %}
 
             {% endblock %}
-
         </div>
     </div>
 
@@ -98,9 +97,7 @@
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="/docs/4.0/">Visit the homepage</a> or read our <a
-                href="/docs/4.0/getting-started/">getting started guide</a>.</p>
+
     </div>
 </footer>
 
